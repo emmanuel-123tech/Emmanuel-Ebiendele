@@ -9,10 +9,10 @@ STEP 1-Loading the dataset
 
 The dataset consists of 3 separate csv files of each branch, the 3 files were inserted into a new folder called 'EO' located at my local storage, which have the same csv extension  using os module and glob module.
 
-In other to make the data analysis easier I combined the csv files from each branches known as Abuja_Branch, Lagos_Branch and Port_Harcourt_branch which concatenated into a single csv file called "SUPERMARKET"
+In other to make the data analysis easier I combined the csv files from each branches known as Abuja_Branch, Lagos_Branch and Port_Harcourt_branch which concatenated into a single csv file called "c.csv"
 
 
-After the combination of three dataset into a new single dataset was successful I proceeded by importing the new csv file known as "supermarket" for data exploration.
+After the combination of three dataset into a new single dataset was successful, I used pd.read_csv() function to rename the new combined dataset as "supermarket", then proceeded by importing the dataset known as "supermarket" for data exploration.
 
 
 STEP 2-Data Exploration
