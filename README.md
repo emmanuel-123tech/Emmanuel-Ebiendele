@@ -6,6 +6,7 @@ Company XYZ owns a supermarket chain across the country. Each major branch locat
 
 
 STEP 1-Loading the dataset
+
 The dataset consists of 3 separate csv files of each branch, the 3 files were inserted into a new folder called 'EO' located at my local storage, which have the same csv extension  using os module and glob module.
 
 In other to make the data analysis easier I combined the csv files from each branches known as Abuja_Branch, Lagos_Branch and Port_Harcourt_branch which concatenated into a single csv file called "SUPERMARKET"
