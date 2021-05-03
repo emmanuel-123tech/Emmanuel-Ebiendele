@@ -58,6 +58,21 @@ from observation the following columns shows the number of unique values
 
 STEP 5- Aggregation with GroupBy
 
+First of all i determined the mean and sum separately using Groupby then combining both the sum and mean into a single table for more understanding.
+
+The Groupby Function made the grouping easier to determine aggregate functions such as sum, mean, minimum and maximum which was performed on the GroupBy object. From my observation
+
+(1).Port Harcourt has the highest total gross income, reason for its highest tax
+
+(2).Lagos has the highest total unit price, quantity and rating
+
+(3).Abuja has the lowest total rating
+
+(4).Port Harcourt paid the highest tax while Lagos paid the least.
+
+(5). Lagos has the highest sum of gross margin percentage, day, month & year while port harcourt has the highest Total & cogs
+
+
 STEP 6-Data Visualization
 
 In this section i provided answer to some questions by generating charts and making use of different plotting styles such as countplot, catplot & boxplot. I used the Seaborn visualization library to generate various plots. For all visualizations, which include a chart title by using the seaborn set_title method.
@@ -118,17 +133,4 @@ Executive Summary
 
 I ensured to explain each line of code as comment in this notebook
 
-First of all i determined the mean and sum separately using Groupby then combining both the sum and mean into a single table for more understanding.
-
-The Groupby Function made the grouping easier to determine aggregate functions such as sum, mean, minimum and maximum which was performed on the GroupBy object. From my observation
-
-(1).Port Harcourt has the highest total gross income, reason for its highest tax
-
-(2).Lagos has the highest total unit price, quantity and rating
-
-(3).Abuja has the lowest total rating
-
-(4).Port Harcourt paid the highest tax while Lagos paid the least.
-
-(5). Lagos has the highest sum of gross margin percentage, day, month & year while port harcourt has the highest Total & cogs
 
